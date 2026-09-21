@@ -1,0 +1,27 @@
+{
+  "name": "mcp-export-pdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.3.4",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@12.3.4",
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "marked": "^18.0.11",
+    "pdfkit": "^0.20.2",
+    "puppeteer": "^25.10.0"
+  }
+}
